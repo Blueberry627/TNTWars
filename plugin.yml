@@ -1,7 +1,7 @@
 name: TNTWars
 version: 1.0.0-beta
 api: [5.0.0]
-author: LiTEK
+author: LiTEK/Terpz710
 main: tntwars\TNTWars
 permissions:
   tntwars.creator:
