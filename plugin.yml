@@ -1,0 +1,10 @@
+name: TNTWars
+version: 1.0.0-beta
+api: [5.0.0]
+author: LiTEK
+main: tntwars\TNTWars
+permissions:
+  tntwars.creator:
+    description: Permission to use creator commands
+  tntwars.player:
+    description: Permission to use player commands
