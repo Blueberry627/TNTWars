@@ -237,7 +237,7 @@ class ArenaEvent implements Listener
 				if ($event->getPlayer()->getLevel()->getFolderName() === TNTWars::getArena()->getLevel($name)) {
 
 					$message = $event->getMessage();
-					if ($message[0] === "/") {
+					if ($message(0) === "/") {
 						$event->setCancelled(true);
 						$command = substr($message, 1);
 						$args = explode(" ", $command);
